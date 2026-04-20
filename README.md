@@ -1,0 +1,2 @@
+# 38-STUDY-iOS-ANIMATION
+LET'S SOPT 38기 iOS 애니메이션 스터디
