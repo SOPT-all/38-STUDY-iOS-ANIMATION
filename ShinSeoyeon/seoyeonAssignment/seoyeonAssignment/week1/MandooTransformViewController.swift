@@ -87,6 +87,7 @@ final class MandooTransformViewController: UIViewController {
     }
     
     // 만두 크기변경
+    // 한번 크기변경되면 안돌아옴
     @objc private func sizeChangeMandoo() {
         UIView.animate(withDuration: 1) {
             self.mandoo.transform = CGAffineTransform(scaleX: 2, y: 2)
@@ -108,7 +109,7 @@ final class MandooTransformViewController: UIViewController {
             options: [.repeat, .autoreverse]
         ) {
             UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1) {
-                self.mandoo.transform = CGAffineTransform(translationX: 100, y: 0)
+                self.mandoo.transform = CGAffineTransform(translationX: 100, y: 100)
             }
         }
     }
