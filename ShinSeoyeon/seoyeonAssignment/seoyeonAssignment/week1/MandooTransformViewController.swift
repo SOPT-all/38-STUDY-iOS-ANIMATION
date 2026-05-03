@@ -60,7 +60,7 @@ final class MandooTransformViewController: UIViewController {
         view.addSubview(stackView)
         
         stackView.snp.makeConstraints {
-            $0.top.equalTo(mandoo.snp.bottom).offset(30)
+            $0.top.equalTo(mandoo.snp.bottom).offset(150) // 만두랑 버튼 사이 간격
             $0.centerX.equalToSuperview()
         }
     }
