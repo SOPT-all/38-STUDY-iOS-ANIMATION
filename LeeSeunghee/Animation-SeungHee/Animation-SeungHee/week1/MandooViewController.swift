@@ -38,14 +38,26 @@ class MandooViewController: UIViewController {
         $0.backgroundColor = .blue
         $0.layer.cornerRadius = 10
         $0.clipsToBounds = true
+        $0.addTarget(self,action:#selector(brrDidTap),for:.touchUpInside )
     }
     
+ /*   private let toast = UIView().then {
+        $0.backgroundColor = .purple
+        $0.layer.cornerRadius = 20
+        $0.clipsToBounds = true
+    }
+
+    private let toastLabel = UILabel().then {
+        $0.text = "만지지말랬지"
+        $0.textColor = .white
+        $0.font = .systemFont(ofSize: 16, weight: .bold)
+        $0.textAlignment = .center
+    }*/
     //MARK: - viewDidLoad()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        
         setUI()
         setLayout()
         setGesture()
@@ -73,6 +85,17 @@ class MandooViewController: UIViewController {
             $0.centerX.equalToSuperview()
             $0.width.equalTo(250)
         }
+ /*       toast.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.centerY.equalToSuperview()
+            $0.bottom.equalToSuperview().inset(100)
+            $0.height.equalTo(44)
+        }
+
+        toastLabel.snp.makeConstraints {
+            $0.leading.trailing.equalToSuperview().inset(20)
+            $0.centerY.equalToSuperview()
+        }*/
     }
     
     //MARK: - func #anime
