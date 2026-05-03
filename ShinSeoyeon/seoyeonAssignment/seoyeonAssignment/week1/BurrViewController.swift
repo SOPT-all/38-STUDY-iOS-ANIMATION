@@ -51,11 +51,11 @@ final class BurrViewController: UIViewController {
     // 부르르버튼 탭했을때 애니메이션!!
     @objc private func burrDidTap() {
         UIView.animate(
-            withDuration: 1,
+            withDuration: 0.01, // 이게 짧을수록 빠르게 부르르함
             delay: 0,
             options: [.repeat, .autoreverse]
         ) {
-            self.mandoo.transform = CGAffineTransform(translationX: 50, y: 50)
+            self.mandoo.transform = CGAffineTransform(translationX: 50, y: 0) // 엑스축으로만 움직이게
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
