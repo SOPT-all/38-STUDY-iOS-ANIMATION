@@ -55,7 +55,7 @@ final class BurrViewController: UIViewController {
             delay: 0,
             options: [.repeat, .autoreverse]
         ) {
-            self.mandoo.transform = CGAffineTransform(translationX: 10, y: 10)
+            self.mandoo.transform = CGAffineTransform(translationX: 50, y: 50)
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
