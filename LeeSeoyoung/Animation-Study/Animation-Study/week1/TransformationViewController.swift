@@ -104,22 +104,44 @@ class TransformationViewController: UIViewController {
     }
     
     @objc private func button1DidTap() {
-        
+        UIView.animate(withDuration: 2) {
+            self.jokebear.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
+        }
     }
     
     @objc private func button2DidTap() {
-        
+        UIView.animateKeyframes(withDuration: 4, delay: 0) {
+            UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 1/4) {
+                self.jokebear.transform = CGAffineTransform(translationX: 100, y: 0)
+            }
+            
+            UIView.addKeyframe(withRelativeStartTime: 1/4, relativeDuration: 1/4) {
+                self.jokebear.transform = CGAffineTransform(translationX: 100, y: 100)
+            }
+            
+            UIView.addKeyframe(withRelativeStartTime: 2/4, relativeDuration: 1/4) {
+                self.jokebear.transform = CGAffineTransform(translationX: 0, y: 100)
+            }
+            
+            UIView.addKeyframe(withRelativeStartTime: 3/4, relativeDuration: 1/4) {
+                self.jokebear.transform = CGAffineTransform(translationX: 0, y: 0)
+            }
+        }
     }
     
     @objc private func button3DidTap() {
-        
+        UIView.animate(withDuration: 2) {
+            self.jokebear.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
+        }
     }
     
     @objc private func button4DidTap() {
-        
+        UIView.animate(withDuration: 2) {
+            self.jokebear.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+        }
     }
     
     @objc private func button5DidTap() {
-        
+        self.jokebear.transform = .identity
     }
 }
