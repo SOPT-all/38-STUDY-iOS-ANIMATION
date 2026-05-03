@@ -68,8 +68,8 @@ class MandooViewController: UIViewController {
     private func setLayout() {
         mandoo.snp.makeConstraints {
             $0.centerX.equalToSuperview()
-            $0.top.equalTo(view.safeAreaLayoutGuide).inset(100)
-            $0.width.height.equalTo(200)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(50)
+            $0.width.height.equalTo(150)
         }
         
         spinButton.snp.makeConstraints {
