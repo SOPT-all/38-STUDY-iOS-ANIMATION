@@ -24,9 +24,7 @@ class ToastMessageViewController: UIViewController {
         $0.layer.cornerRadius = 10
     }
     
-    private let toastMessage = UIView().then {
-        $0.backgroundColor = .systemPink
-    }
+    private let toastMessage = UIView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
