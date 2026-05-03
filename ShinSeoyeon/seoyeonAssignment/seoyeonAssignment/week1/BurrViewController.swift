@@ -22,7 +22,7 @@ final class BurrViewController: UIViewController {
         view.addSubview(mandoo)
         
         mandoo.snp.makeConstraints {
-            $0.width.height.equalTo(160)
+            $0.width.height.equalTo(150)
             $0.centerX.equalToSuperview()
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(80)
         }
