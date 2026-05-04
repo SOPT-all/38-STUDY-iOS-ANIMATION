@@ -10,6 +10,7 @@ import UIKit
 class BaseUIViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         
         setUp()
         register()

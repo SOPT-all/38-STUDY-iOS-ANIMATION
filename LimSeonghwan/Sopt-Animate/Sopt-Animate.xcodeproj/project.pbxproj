@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		CAF7FDD92FA810D60070B626 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = CAF7FDD82FA810D60070B626 /* Then */; };
 		CAF7FDDC2FA810DE0070B626 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CAF7FDDB2FA810DE0070B626 /* SnapKit */; };
-		CAF7FEEB2FA812900070B626 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CAF7FEEA2FA8128C0070B626 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAF7FDBD2FA810400070B626 /* Sopt-Animate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sopt-Animate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAF7FEEA2FA8128C0070B626 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -54,7 +52,6 @@
 		CAF7FDB42FA810400070B626 = {
 			isa = PBXGroup;
 			children = (
-				CAF7FEEA2FA8128C0070B626 /* .gitignore */,
 				CAF7FDBF2FA810400070B626 /* Sopt-Animate */,
 				CAF7FDBE2FA810400070B626 /* Products */,
 			);
@@ -138,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF7FEEB2FA812900070B626 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +162,6 @@
 				INFOPLIST_FILE = "Sopt-Animate/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -197,7 +192,6 @@
 				INFOPLIST_FILE = "Sopt-Animate/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
