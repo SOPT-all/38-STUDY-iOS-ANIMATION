@@ -15,8 +15,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
             guard let windowScene = (scene as? UIWindowScene) else { return }
             let window = UIWindow(windowScene: windowScene)
-            let viewController = UINavigationController(rootViewController: ImageChangeViewController())
-            window.rootViewController = ImageChangeViewController()
+            let viewController = UINavigationController(rootViewController: ToastMessageViewController())
+            window.rootViewController = ToastMessageViewController()
             self.window = window
             window.makeKeyAndVisible()
         }
