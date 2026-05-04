@@ -133,7 +133,7 @@ class ImageViewController: BaseUIViewController {
 
     @objc private func smallButtonDidTap() {
         UIView.animate(withDuration: 1) {
-            self.imageView.transform = .identity
+            self.imageView.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
         }
     }
 }
