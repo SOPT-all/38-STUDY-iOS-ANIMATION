@@ -10,7 +10,7 @@ import UIKit
 import SnapKit
 import Then
 
-class RotationViewController: UIViewController {
+final class RotationViewController: UIViewController {
     
     private let maengoo = UIImageView().then {
         $0.image = UIImage(named: "maengoo")
