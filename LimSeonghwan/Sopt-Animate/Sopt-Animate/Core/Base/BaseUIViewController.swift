@@ -15,6 +15,7 @@ class BaseUIViewController: UIViewController {
         setUp()
         register()
         setLayout()
+        setStyle()
         setAction()
         setDelegate()
     }
@@ -24,6 +25,8 @@ class BaseUIViewController: UIViewController {
     func register() {}
     
     func setLayout() {}
+    
+    func setStyle() {}
     
     func setAction() {}
     
