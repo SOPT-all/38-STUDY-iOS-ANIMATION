@@ -15,6 +15,7 @@ class BaseUIViewController: UIViewController {
         setUp()
         register()
         setLayout()
+        setStyle()
         setAction()
         setDelegate()
     }

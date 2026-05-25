@@ -40,14 +40,12 @@ class LongPressViewConroller: BaseUIViewController {
     @objc private func handleLongPress(_ gesture: UILongPressGestureRecognizer) {
         switch gesture.state {
         case .began:
-            let rotation = CABasicAnimation(keyPath: "transform.rotation.z")
-            rotation.fromValue = 0
-            rotation.toValue = Double.pi * 2
-            rotation.duration = 1.0
-            rotation.repeatCount = .infinity
-            gamjaImage.layer.add(rotation, forKey: "spin")
+            UIView.animate(withDuration: 0.5, delay: 0, options: [.repeat, .curveLinear]) {
+                self.gamjaImage.transform = self.gamjaImage.transform.rotated(by: .pi)
+            }
         case .ended, .cancelled:
-            gamjaImage.layer.removeAnimation(forKey: "spin")
+            gamjaImage.layer.removeAllAnimations()
+            gamjaImage.transform = .identity
         default:
             break
         }
