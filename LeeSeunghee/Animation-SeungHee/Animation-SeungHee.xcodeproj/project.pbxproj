@@ -26,6 +26,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		462C05D82FC46C450038861C /* week2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = week2;
+			sourceTree = "<group>";
+		};
 		4637B30D2F9F8EF20052A45E /* Animation-SeungHee */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -54,6 +59,7 @@
 			children = (
 				4637B30D2F9F8EF20052A45E /* Animation-SeungHee */,
 				4637B30C2F9F8EF20052A45E /* Products */,
+				462C05D82FC46C450038861C /* week2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +87,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				462C05D82FC46C450038861C /* week2 */,
 				4637B30D2F9F8EF20052A45E /* Animation-SeungHee */,
 			);
 			name = "Animation-SeungHee";
