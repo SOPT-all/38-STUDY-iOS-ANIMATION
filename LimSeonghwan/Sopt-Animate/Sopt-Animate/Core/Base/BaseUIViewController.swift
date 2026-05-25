@@ -25,6 +25,8 @@ class BaseUIViewController: UIViewController {
     
     func setLayout() {}
     
+    func setStyle() {}
+    
     func setAction() {}
     
     func setDelegate() {}
