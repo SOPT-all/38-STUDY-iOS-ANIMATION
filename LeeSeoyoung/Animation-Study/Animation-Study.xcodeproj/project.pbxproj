@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A332309C2FCDA92E002B011D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A332309B2FCDA92E002B011D /* Lottie */; };
 		A344215F2FA7645C00B11804 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = A344215E2FA7645C00B11804 /* Then */; };
 		A34421622FA7646E00B11804 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A34421612FA7646E00B11804 /* SnapKit */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 			files = (
 				A344215F2FA7645C00B11804 /* Then in Frameworks */,
 				A34421622FA7646E00B11804 /* SnapKit in Frameworks */,
+				A332309C2FCDA92E002B011D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				A344215E2FA7645C00B11804 /* Then */,
 				A34421612FA7646E00B11804 /* SnapKit */,
+				A332309B2FCDA92E002B011D /* Lottie */,
 			);
 			productName = "Animation-Study";
 			productReference = A34420D42FA75EDA00B11804 /* Animation-Study.app */;
@@ -119,6 +122,7 @@
 			packageReferences = (
 				A344215D2FA7645C00B11804 /* XCRemoteSwiftPackageReference "Then" */,
 				A34421602FA7646E00B11804 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A332309A2FCDA92E002B011D /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A34420D52FA75EDA00B11804 /* Products */;
@@ -358,6 +362,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A332309A2FCDA92E002B011D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
 		A344215D2FA7645C00B11804 /* XCRemoteSwiftPackageReference "Then" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then";
@@ -377,6 +389,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A332309B2FCDA92E002B011D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A332309A2FCDA92E002B011D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
 		A344215E2FA7645C00B11804 /* Then */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A344215D2FA7645C00B11804 /* XCRemoteSwiftPackageReference "Then" */;
