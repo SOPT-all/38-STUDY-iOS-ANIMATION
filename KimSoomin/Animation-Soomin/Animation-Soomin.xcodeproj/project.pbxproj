@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		773322F82F9F6103000D0CDD /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 773322F72F9F6103000D0CDD /* Then */; };
 		773322FB2F9F610F000D0CDD /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 773322FA2F9F610F000D0CDD /* SnapKit */; };
+		778F19642FC4535200AFF730 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 778F19632FC4535200AFF730 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 			files = (
 				773322F82F9F6103000D0CDD /* Then in Frameworks */,
 				773322FB2F9F610F000D0CDD /* SnapKit in Frameworks */,
+				778F19642FC4535200AFF730 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				773322F72F9F6103000D0CDD /* Then */,
 				773322FA2F9F610F000D0CDD /* SnapKit */,
+				778F19632FC4535200AFF730 /* Lottie */,
 			);
 			productName = "Animation-Soomin";
 			productReference = 773322DE2F9F6065000D0CDD /* Animation-Soomin.app */;
@@ -119,6 +122,7 @@
 			packageReferences = (
 				773322F62F9F6103000D0CDD /* XCRemoteSwiftPackageReference "Then" */,
 				773322F92F9F610F000D0CDD /* XCRemoteSwiftPackageReference "SnapKit" */,
+				778F19622FC4535200AFF730 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 773322DF2F9F6065000D0CDD /* Products */;
@@ -370,6 +374,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		778F19622FC4535200AFF730 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.6.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -382,6 +394,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 773322F92F9F610F000D0CDD /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		778F19632FC4535200AFF730 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 778F19622FC4535200AFF730 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
