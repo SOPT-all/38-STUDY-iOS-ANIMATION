@@ -51,4 +51,8 @@ extension UIView {
             self.transform = .identity
         }
     }
+    
+    func addSubviews(_ views: UIView...) {
+        views.forEach { self.addSubview($0) }
+    }
 }
