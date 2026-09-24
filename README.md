@@ -3,7 +3,7 @@
 
 ### 👾 애니메이션 스터디원
 
-| <img src="https://github.com/gleamminn.png" width="150" height="150"><br> [김수민](https://github.com/gleamminn) | <img src="https://github.com/ser0kim.png" width="150" height="150"><br> [김세령](https://github.com/ser0kim) | <img src="https://github.com/hemssy.png" width="150" height="150"><br> [신서연](https://github.com/hemssy) | <img src="https://github.com/amie-lee.png" width="150" height="150"><br> [이서영](https://github.com/amie-lee) |
+| <img src="https://github.com/gleamminn.png" width="150" height="150"><br> 👑 [김수민](https://github.com/gleamminn) | <img src="https://github.com/ser0kim.png" width="150" height="150"><br> [김세령](https://github.com/ser0kim) | <img src="https://github.com/hemssy.png" width="150" height="150"><br> [신서연](https://github.com/hemssy) | <img src="https://github.com/amie-lee.png" width="150" height="150"><br> [이서영](https://github.com/amie-lee) |
 | :---: | :---: | :---: | :---: |
 | <img src="https://github.com/sssthnnhee.png" width="150" height="150"><br> [이승희](https://github.com/sssthnnhee) | <img src="https://github.com/limtjdghks.png" width="150" height="150"><br> [임성환](https://github.com/limtjdghks) | <img src="https://github.com/dearosmar.png" width="150" height="150"><br> [최주희](https://github.com/dearosmar) | <img src="https://github.com/user-attachments/assets/a16ea6c6-a898-48dd-8673-232c8b715290" width="150" height="150"> |
 
@@ -28,8 +28,6 @@
 | --- | --- | --- | --- |
 | week0 | 4/20 - 4/26 | 킥오프 | 스터디 설명, 규칙 및 벌금 논의 |
 | week1 | 4/27 - 5/3 | 애니메이션 기초 | 토스트 메시지, 부르르 버튼 |
-| week2 | 5/4 - 5/17 | Gesture | UIGestureRecognizer |
-| week3 | 5/18 - 5/24 | `UIScrollView`,`UICollectionView`  | 무한 케러셀, 세그먼트 컨트롤 |
-| week4 | 5/25 - 5/31 | Scroll | 스트레치 헤더, 스티키 헤더 |
-| week5 | 6/1 - 6/7 | `UIBezierPath`, `CAShapeLayer`  | 프로그래스 바, 베지어 패스 |
-| week6 | 6/8 - 6/14 | UX 디테일 | Lottie, 스켈레톤 뷰 |
+| week2 | 5/4 - 5/17 | Gesture | `UIGestureRecognizer` |
+| week3 | 5/25 - 5/31 | `UIScrollView`,`UICollectionView`, Lottie  | 무한 케러셀, 세그먼트 컨트롤, 로띠 라이브러리 |
+| week4 | 6/1 - 6/7 | Scroll, `UIBezierPath`, `CAShapeLayer`  | 스트레치 헤더, 스티키 헤더, 프로그래스 바 |
