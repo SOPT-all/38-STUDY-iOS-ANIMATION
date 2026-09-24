@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B778A3D2FA8A9DA0019ADF7 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 3B778A3C2FA8A9DA0019ADF7 /* Then */; };
 		3B778A452FA8AA020019ADF7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3B778A442FA8AA020019ADF7 /* SnapKit */; };
+		8F1C9E122FCDF10000A00001 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8F1C9E112FCDF10000A00001 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 			files = (
 				3B778A3D2FA8A9DA0019ADF7 /* Then in Frameworks */,
 				3B778A452FA8AA020019ADF7 /* SnapKit in Frameworks */,
+				8F1C9E122FCDF10000A00001 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 			packageProductDependencies = (
 				3B778A3C2FA8A9DA0019ADF7 /* Then */,
 				3B778A442FA8AA020019ADF7 /* SnapKit */,
+				8F1C9E112FCDF10000A00001 /* Lottie */,
 			);
 			productName = "Animation-Seryung";
 			productReference = 3B6A4C802F9F8EEF00D6A9BA /* Animation-Seryung.app */;
@@ -119,6 +122,7 @@
 			packageReferences = (
 				3B778A3B2FA8A9DA0019ADF7 /* XCRemoteSwiftPackageReference "Then" */,
 				3B778A432FA8AA010019ADF7 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8F1C9E102FCDF10000A00001 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3B6A4C812F9F8EEF00D6A9BA /* Products */;
@@ -370,6 +374,14 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		8F1C9E102FCDF10000A00001 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -382,6 +394,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3B778A432FA8AA010019ADF7 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		8F1C9E112FCDF10000A00001 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F1C9E102FCDF10000A00001 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
